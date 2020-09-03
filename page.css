@@ -1,0 +1,283 @@
+body{
+    background-image: URL(images/stucco/stucco.png);
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    max-width: 750px;
+    margin: auto;
+}
+
+/* menu bar for main and home */
+
+.main-nav{
+    width: 740px;
+    text-align: right;
+    margin-top: -16px;
+}
+
+.main-nav ul{
+    background-color: #333333; 
+    color: darkgray;
+    list-style-type: none;
+    height: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+   }
+
+.main-nav li{
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 12px
+}
+
+.main-nav a{
+    color: darkgray;
+    text-decoration: none;
+    padding-bottom: 3px;
+    
+}
+
+#art-store{
+    margin-top: -10px;
+    margin-bottom: -10px;
+    font-size: 45px;
+
+}
+
+.home-nav{
+    background-color: whitesmoke;
+    width: 740px;
+}
+
+.home-nav ul{
+    list-style-type: none;
+    height: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: -20px;
+}
+
+.home-nav li{
+    display: inline-block;
+    margin-right: 30px;
+    
+}
+
+.home-nav a{
+    color: black;
+    text-decoration: none;
+}
+
+#price{
+    color:red;
+    font-weight: bold;
+    font-size: 12px;
+}
+#title{
+    margin-top: 10px;
+}
+#title, #artist-name{
+    padding-top: 7px; 
+}
+
+#artist-name{
+    margin-top: -20px;   
+    font-size: 12px;
+}
+
+#straw-hat{
+   float: left;
+    margin-right: 15px;  
+    margin-top: -5px; 
+}
+
+section{
+    background-color: white;
+    width: 730px;
+    padding-left: 10px;
+    padding-top: 2px;
+}
+.main-body{
+    height: 470px;
+}
+
+aside{
+    position: relative;
+    width: 720px;
+    display: block;
+}
+
+#article{
+    font-size: 12px;
+}
+
+#product-detail{
+    border-bottom:1px solid #CCC;
+    padding-bottom:3px;
+}
+
+#left-table{
+    font-weight: bold;
+}
+
+.add-button{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #CCC;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 7px;
+    margin-left: 307px;
+    margin-right: 15px;
+
+
+}
+
+.add-button button{
+    color: darkblue;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 13px;
+}
+
+#product-detail-table{
+    font-size: 12px;
+}
+
+#similiar-product-footer{
+    text-align: left;
+}
+
+#similiar-product{
+    border-bottom:1px solid #CCC;
+    padding-bottom:3px;
+}
+
+#pic1, #pic2, #pic3, #pic4{
+    font-size: 12px;
+    padding-right: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #CCC;
+    text-align: center;
+}
+
+#pic1-class{
+    text-align: center;
+}
+
+td img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#copyright{
+    background-color: #333333; 
+    color: darkgray;
+    font-size: 10px;
+    width: 740px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+/* Page Two Content */
+
+#user-info, #location, #details, #done{
+    border-bottom:1px solid #CCC;
+    padding-bottom:3px;
+    padding-top: 30px;
+    text-align: left;
+}
+
+label{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* user info */
+#user-info{
+    margin-top: -25px;
+}
+
+#last-name{
+    padding-left: 120px;
+}
+
+#password{
+    padding-left: 135px;
+}
+
+#last-name-td, #password-repeat{
+    padding-left: 50px;
+}
+
+#email, #address{
+    width: 400px;
+}
+
+/* location */
+
+#state-label{
+    padding-left: 200px;
+}
+#state-td{
+    padding-left: 83px;
+}
+#state-input{
+    width: 35px;
+}
+#zip-label{
+    padding-left: 80px;
+}
+#zip-td{
+    padding-left: 60px;
+}
+#zip-input{
+    width: 70px;
+}
+
+#country-label{
+    padding-left: 182px;
+}
+#country-td{
+    padding-left: 80px;
+}
+#country-input{
+    width: 110px;
+}
+.continent-class{
+    font-size: 12px;
+}
+
+/* personal detail */
+
+#favorite-label{
+    padding-left: 182px;
+}
+#favorite-td{
+    padding-left: 93px;
+}
+
+#range{
+    width: 300px;
+}
+
+#interest{
+    font-size: 12px;
+}
+
+/* all done */
+#accept{
+    font-size: 12px;
+}
+
+#submit-button{
+    margin-top: 5px;
+    background-color: lightblue;
+    border: 1px solid gray;
+}

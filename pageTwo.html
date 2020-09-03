@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <link rel="stylesheet" href="page.css" />
+        <title>Art Store</title>
+    </head>
+    <body>
+            <header>
+                    <div class="main-nav">
+                        <nav>
+                            <ul>
+                                <!-- Link to pageTwo -->
+                                <li><a href="pageTwo.html">My Account</a></li> 
+                                <li><a href="#">Wish List</a></li>
+                                <li><a href="#">Shopping Cart</a></li>
+                                <li><a href="#">Checkout</a></li>
+                            </ul>
+                        </nav>
+                        </div>
+        
+                <h1 id="art-store">Art Store</h1>
+                
+                <div class="home-nav">
+                    <nav>
+                        <ul >
+                            <!-- Link to pageOne -->
+                            <li><a href="pageOne.html">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Art Works</a></li>
+                            <li><a href="#">Artists</a></li>
+                        </ul>
+                    </nav>
+                    </div>
+            </header>
+
+            <section>
+            <h2 id="info">Customer Registration</h2>
+            <h3 id="user-info">1. User info</h3>
+            <form action="http://faculty.washington.edu/ealmasri/assign1.php">
+                
+                <table>
+                    <tr>
+                     <label for="first">First Name </label>
+                     <label id="last-name" for="last">Last Name </label><br>
+                    </tr>
+                    
+                    <td><input type="text" name="first" value="Eyhab"> </td>
+                    <td id="last-name-td"><input type="text" name="last" value="Al-Masri"><br></td>
+                </table>
+                
+                <label for="email">Email </label><br>
+                <input id="email" type="text" name="email" value="test@gmail.com"><br>
+                
+                <table>
+                    <tr>
+                            <label for="password">Password</label>
+                            <label id="password" for="password-repeat">Password Repeat</label><br>
+                    </tr>
+                            <td><input type="password" name="password" value="test"></td>
+                            <td id= "password-repeat"><input type="password" name="password-repeat" value="test"><br></td>
+
+                </table>
+
+            <h3 id="location">2. Location</h3>
+                <label id="address-label" for="address">Address</label><br>
+                <input id="address" type="text" name="address" value="123 Address"><br>
+               
+                <table>
+            
+                <tr>
+                        <label id="city-label" for="city">City</label>
+                        <label id="state-label" for="state">State</label>
+                        <label id="zip-label" for="zip">Zip</label><br>
+                </tr>
+                
+                <td><input type="text" name="city" value="Tacoma"></td>
+                <td id="state-td"><input id="state-input" type="text" name="state" value="FL"></td>
+                <td id="zip-td"><input id="zip-input" type="text" name="zip" value="33165"><br></td>
+
+                </table>
+
+
+
+                <table>
+                    <tr>
+                        <label for="phone">Phone</label>
+                        <label id="country-label" for="country"> Country </label><br> 
+                    </tr>
+                
+                <td><input type="text" name="phone" value="12121212"></td>
+                <td id="country-td"><select id="country-input" name="country">
+                    <option>United States</option>
+                    </select> <br>
+                </td>
+                
+                </table>
+
+                <label for="continent"> Continent</label><br> 
+                <div class="continent-class">
+                <input type="radio" name="continent" value="1"> Africa<br>
+                <input type="radio" name="continent" value="2"> Antarctica<br>
+                <input type="radio" name="continent" value="3"> Asia<br>
+                <input type="radio" name="continent" value="4"> Australia<br>
+                <input type="radio" name="continent" value="5"> Europe<br>
+                <input type="radio" name="continent" value="6"> North America<br>
+                <input type="radio" name="continent" value="7"> South America<br>
+            </div>
+
+            <h3 id="details">3. Personal Details</h3>
+
+            <table>
+                <tr>
+                        <label for="birthday">Birth Day</label>
+                        <label id="favorite-label" for="favorite">Favorite Color</label><br>
+                </tr>
+
+                <td><input type="date" name="birthday" value="2018-06-20"></td>
+                <td id="favorite-td"><input type="color" name="favorite" value="#000000"><br></td>
+
+            </table>
+                <label for="interest">Interest In Art</label><br>
+                <p id="interest"> Minimal 
+                <input id="range" type="range" min="0" max="3" step="1" name="interest" value="3">
+                Love It! </p>
+
+            <h3 id="done">4. All Done</h3>
+             
+             <input type="checkbox" name="accept" value="on">
+             <label id="accept" for="accept">I agree to the <a href="#">Terms of the Site</a></label><br>
+            
+             <button id="submit-button" type="submit">
+                 <img src="images/button_ok.png" /><span>Sign me up!</span>
+             </button>
+        </form>
+        </section>
+        
+        <p id="copyright">All images are copyright to their owners. This is just a hypothetical site 2018 Copyright Art Store</p>
+        
+    </body>
+</html>
